@@ -7,6 +7,8 @@
 //#include <ros/ros.h>
 //#include <cv_bridge/cv_bridge.h>
 #include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui_c.h>
+#include "opencv2/imgcodecs/legacy/constants_c.h"
 
 #include "estimator.h"
 #include "parameters.h"
@@ -14,9 +16,9 @@
 #include "loop-closure/loop_closure.h"
 #include "loop-closure/keyframe.h"
 #include "loop-closure/keyframe_database.h"
-#include "camodocal/camera_models/CameraFactory.h"
-#include "camodocal/camera_models/CataCamera.h"
-#include "camodocal/camera_models/PinholeCamera.h"
+#include "camera_models/CameraFactory.h"
+#include "camera_models/CataCamera.h"
+#include "camera_models/PinholeCamera.h"
 /****************** load image section ***********************/
 #include <iostream>
 #include <fstream>

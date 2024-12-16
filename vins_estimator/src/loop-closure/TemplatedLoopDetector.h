@@ -15,18 +15,18 @@
 #include <fstream>
 #include <string>
 
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
 
 #include "ThirdParty/DBoW/TemplatedVocabulary.h"
 #include "ThirdParty/DBoW/TemplatedDatabase.h"
 #include "ThirdParty/DBoW/QueryResults.h"
 #include "ThirdParty/DBoW/BowVector.h"
 
-#include "camodocal/camera_models/CameraFactory.h"
-#include "camodocal/camera_models/CataCamera.h"
-#include "camodocal/camera_models/EquidistantCamera.h"
-#include "camodocal/camera_models/PinholeCamera.h"
-#include "camodocal/camera_models/ScaramuzzaCamera.h"
+#include "../camera_models/CameraFactory.h"
+#include "../camera_models/CataCamera.h"
+#include "../camera_models/EquidistantCamera.h"
+#include "../camera_models/PinholeCamera.h"
+#include "../camera_models/ScaramuzzaCamera.h"
 
 using namespace std;
 using namespace DBoW2;

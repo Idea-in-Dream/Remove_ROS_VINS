@@ -1,6 +1,6 @@
 #pragma once
 
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 #include "../estimator.h"
 #include "../parameters.h"
 #include "../../../include/Vector3.h"
@@ -24,7 +24,7 @@ void pubOdometry(const Estimator &estimator, const std_msgs::Header &header, Eig
 #include <visualization_msgs/Marker.h>
 #include <tf/transform_broadcaster.h>
 #include "CameraPoseVisualization.h"
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 #include "../estimator.h"
 #include "../parameters.h"
 #include <fstream>
